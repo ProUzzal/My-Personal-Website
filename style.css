@@ -27,7 +27,7 @@ h1 {
   font-size: 30px;
 }
 img {
-  width: 80%;
+  width: 80%;gi
 }
 a {
   background-color: mediumorchid;
@@ -58,10 +58,12 @@ a {
   background-position: center;
   background-size: cover;
 }
+
 .best_work img {
   float: left;
   width: 28%;
-  padding: 20px;
+  padding: 25px;
+  margin: 17px;
 }
 .work_header {
   text-align: center;
@@ -69,7 +71,12 @@ a {
 }
 .footer_section {
   text-align: center;
+  background-image: url(images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
 .footer_section h2 {
 }
 .footer_section h5 {
@@ -92,4 +99,9 @@ a {
   border: 2px solid lightblue;
   border-radius: 7px;
   text-align: center;
+  margin-left: 523px;
+}
+.contact h3 {
+  text-align: center;
+  color: greenyellow;
 }
