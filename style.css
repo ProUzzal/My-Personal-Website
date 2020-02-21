@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Noto Sans KR";
+}
+section {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.header_section {
+  display: flex;
+  justify-content: center;
+  background-image: url(images/header-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.half_width {
+  width: 40%;
+  float: left;
+}
+h1 {
+  color: dodgerblue;
+  font-size: 30px;
+}
+img {
+  width: 80%;
+}
+a {
+  background-color: mediumorchid;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: 500;
+  border: 2px solid blueviolet;
+  border-radius: 4px;
+  padding: 2px;
+}
+.half_width a:hove {
+  background-color: turquoise;
+  color: black;
+}
+
+.bio_section {
+  display: flex;
+  justify-content: center;
+  background-image: url(images/biography-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.work_section {
+  background-image: url(images/latest-work-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.best_work img {
+  float: left;
+  width: 28%;
+  padding: 20px;
+}
+.work_header {
+  text-align: center;
+  font-size: 25px;
+}
+.footer_section {
+  text-align: center;
+}
+.footer_section h2 {
+}
+.footer_section h5 {
+  font-size: 22px;
+  height: 2px;
+  color: gray;
+}
+.footer_section h6 {
+}
+.footer_section p {
+  text-align: center;
+}
+
+.contact {
+  width: 500px;
+  padding: 10px;
+  background-color: blueviolet;
+  color: white;
+  line-height: 14px;
+  border: 2px solid lightblue;
+  border-radius: 7px;
+  text-align: center;
+}
